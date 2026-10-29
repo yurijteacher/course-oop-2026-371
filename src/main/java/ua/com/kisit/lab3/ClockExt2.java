@@ -44,8 +44,8 @@ public class ClockExt2 extends  ClockExt{
                 "ClockExt2{" +
                         "hour=" + super.getHour() +
                         ", minute=" + super.getMinute() +
-                        "second=" + super.getSecond() +
-                        "ms=" + ms +
+                        ", second=" + super.getSecond() +
+                        ", ms=" + ms +
                 '}';
     }
 }

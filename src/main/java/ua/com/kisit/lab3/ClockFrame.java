@@ -21,9 +21,12 @@ public class ClockFrame {
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        frame.setSize(300, 70);
+        frame.setSize(450, 90);
 
         ClockExt clockExt = new ClockExt(18, 2, 23);
+
+        frame.setBackground(Color.GREEN);
+        label.setFont(new Font(Font.SANS_SERIF, Font.BOLD,20));
 
         label.setText(clockExt.toString());
 
